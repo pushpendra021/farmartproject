@@ -18,7 +18,7 @@ const HeroSection = ({ myData }) => {
             range of top-quality farm products and equipment to meet the needs of 
             modern farmers. From fresh produce to cutting-edge machinery, 
             we're your one-stop shop for enhancing
-            productivity and efficiency on the farm.
+             productivity and efficiency on the farm.
             </p>
             <NavLink>
               <Button>show now</Button>
