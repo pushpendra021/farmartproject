@@ -1,16 +1,12 @@
 import React from "react";
-import styled from "styled-components";
+import HeroSection from "./HeroSection";
 
-const Home=()=>{
-    return (
-        //  wrapper is a section or div or component in side styled component
-        <Wrapper className="test">Home</Wrapper>
-    );
-}
+const Home = () => {
+  const data = {
+    name: "FarMart",
+  };
 
-const Wrapper = styled.section`
-height: 100vh;
-background-color: &{({theme})=> theme.colors.bg};
+  return <HeroSection myData={data} />;
+};
 
-`; 
 export default Home;

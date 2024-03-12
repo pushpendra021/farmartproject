@@ -1,10 +1,12 @@
 import React from "react";
+import HeroSection from "./HeroSection";
 
-const About=()=>{
-    return (
+const About = () => {
+  const data = {
+    name: "FarmArt: Cultivating Excellence in Farming",
+  };
 
-<div>About</div>
+  return <HeroSection myData={data} />;
+};
 
-    );
-}
 export default About;
