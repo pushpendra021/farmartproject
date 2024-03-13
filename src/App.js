@@ -75,7 +75,7 @@ function App() {
   {/* error page if another than the above page than show the error page */}
   <Route path="*" element={<ErrorPage></ErrorPage>}></Route> 
 </Routes>
-<Footer></Footer>
+{/* <Footer></Footer> */}
 </Router>
 
 </ThemeProvider>
