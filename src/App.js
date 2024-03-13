@@ -15,7 +15,9 @@ import ErrorPage from "./frontend/ErrorPage";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./frontend/GlobalStyle";
 import Header from './frontend/Header';
-
+import Slider from './frontend/Slider';
+import { slidesData } from "./frontend/slidesData";
+import Footer from './frontend/Footer';
 
 function App() {
 
@@ -50,6 +52,9 @@ function App() {
 
 <GlobalStyle></GlobalStyle>
 <Header></Header>
+<Slider slides={slidesData} />
+<br></br>
+<br></br>
 
 <Routes>
 
@@ -70,7 +75,7 @@ function App() {
   {/* error page if another than the above page than show the error page */}
   <Route path="*" element={<ErrorPage></ErrorPage>}></Route> 
 </Routes>
-
+<Footer></Footer>
 </Router>
 
 </ThemeProvider>

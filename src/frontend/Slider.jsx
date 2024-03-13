@@ -1,5 +1,5 @@
 import React from "react";
-import './slider.css';
+import './Slider.css';
 import { useEffect } from "react";
 import { useState } from "react";
 

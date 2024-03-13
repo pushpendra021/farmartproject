@@ -55,7 +55,7 @@ const Nav= () => {
         border: ${({ theme }) => theme.colors.black};
 
         .mobile-nav-icon {
-          font-size: 2.2rem;
+          font-size: 1.2rem;
           color: ${({ theme }) => theme.colors.black};
         }
       }
@@ -63,7 +63,7 @@ const Nav= () => {
       /* hide the original nav menu  */
       .navbar-list {
         width: 100vw;
-        height: 100vh;
+        height: 70vh;
         position: absolute;
         top: 0;
         left: 0;
@@ -99,7 +99,7 @@ const Nav= () => {
         display: none;
         font-size: 2.2rem;
         position: absolute;
-        top: 3%;
+        top: 1%;
         right: 10%;
         color: ${({ theme }) => theme.colors.black};
         z-index: 9999;
