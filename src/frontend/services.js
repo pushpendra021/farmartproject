@@ -61,7 +61,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background: ${({ theme }) => theme.colors.bg1};
+    background: ${({ theme }) => theme.colors.bg2};
     text-align: center;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
@@ -71,7 +71,7 @@ const Wrapper = styled.section`
     background-color: transparent;
     box-shadow: none;
     .services-colum-2 {
-      background: ${({ theme }) => theme.colors.bg1};
+      background: ${({ theme }) => theme.colors.bg2};
       display: flex;
       flex-direction: row;
       flex: 1;

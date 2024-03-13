@@ -28,6 +28,7 @@ function App() {
       helper: "white",
       bg: "#e6ffe6",
       bg1:"#e6ffe6",
+      bg2:"#ffffff",
       footer_bg: "#0a1435",
       btn: "rgb(98 84 243)",
       border: "rgba(98, 84, 243, 0.5)",
