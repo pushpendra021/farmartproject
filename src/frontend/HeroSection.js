@@ -21,7 +21,7 @@ const HeroSection = ({ myData }) => {
              productivity and efficiency on the farm.
             </p>
             <NavLink>
-              <Button>show now</Button>
+              <Button>shop now</Button>
             </NavLink>
           </div>
           {/* our homepage image  */}
