@@ -27,9 +27,11 @@ function App() {
       text: "rgb(24 24 29)",
       white: "white",
       black: " #212529",
-      helper: "white",
-      bg: "tomato",
-      footer_bg: "#0a1435",
+      helper: "blue",
+      bg: "#e6ffe6",
+      bg1:"#e6ffe6",
+      bg2:"#ffffff",
+      footer_bg: "green",
       btn: "rgb(98 84 243)",
       border: "rgba(98, 84, 243, 0.5)",
       hr: "#ffffff",
@@ -75,7 +77,7 @@ function App() {
   {/* error page if another than the above page than show the error page */}
   <Route path="*" element={<ErrorPage></ErrorPage>}></Route> 
 </Routes>
-{/* <Footer></Footer> */}
+<Footer></Footer>
 </Router>
 
 </ThemeProvider>

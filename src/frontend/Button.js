@@ -25,6 +25,6 @@ export const Button = styled.button`
   a {
     text-decoration: none;
     color: rgb(255 255 255);
-    font-size: 1.8rem;
+    font-size: 1.8rem  ;
   }
 `;
