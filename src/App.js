@@ -27,7 +27,7 @@ function App() {
       text: "rgb(24 24 29)",
       white: "white",
       black: " #212529",
-      helper: "white",
+      helper: "blue",
       bg: "#e6ffe6",
       bg1:"#e6ffe6",
       bg2:"#ffffff",
