@@ -9,10 +9,10 @@ const Footer=()=>{
         <div className="container grid grid-four-column">
             <div className="footer-about">
                 <h3>FARMART</h3>
-                <p>Farmar is a website that provide the farms products and equipments</p>
+                <p>Farmart is a website that provide the farms products and equipments</p>
 
             </div>
-
+  
             <div className="footer-subscribe">
               <h3>Subscribe to get important updates</h3>
               <form action="#">

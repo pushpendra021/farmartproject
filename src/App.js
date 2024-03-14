@@ -28,7 +28,7 @@ function App() {
       white: "white",
       black: " #212529",
       helper: "white",
-      bg: "#e6ffe6",
+      bg: "#1aff66",
       bg1:"#e6ffe6",
       bg2:"#ffffff",
       footer_bg: "green",
