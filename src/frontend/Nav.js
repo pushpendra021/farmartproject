@@ -10,7 +10,7 @@ import { Button } from "./Button";
 
 const Nav= () => {
   const [openMenu, setOpenMenu] = useState(false);
-  const { loginWithRedirect,logout,isAuthenticated }= useAuth0();
+  const { loginWithRedirect,logout,isAuthenticated,user }= useAuth0();
 
   const Nav = styled.nav`
     .navbar-list {
@@ -157,6 +157,7 @@ const Nav= () => {
               Contact
             </NavLink>
           </li>
+          { isAuthenticated && <p>{user.name}</p>}
           {isAuthenticated ? (
             <li>
             <Button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out </Button>

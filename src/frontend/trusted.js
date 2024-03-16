@@ -9,31 +9,31 @@ const Trusted = () => {
           {/* my 1st img  */}
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png"
+              src="https://t3.ftcdn.net/jpg/04/79/73/52/360_F_479735241_O3jHvE8zCMZTr0BdL7DPIKV102GvNBcD.jpg"
               alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image3.png"
+              src="https://www.designmantic.com/images/dm-agri-05.png"
               alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image4.png"
+              src="https://www.designmantic.com/images/dm-agri-10.png"
               alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image6.png"
+              src="https://i.etsystatic.com/5676658/r/il/1eb48f/4399796938/il_fullxfull.4399796938_t6jg.jpg"
               alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image8.png"
+              src="https://i.pinimg.com/564x/0a/5d/ef/0a5defae38bb6685b5338f17d2ee011d.jpg"
               alt="trusted-brands"
             />
           </div>

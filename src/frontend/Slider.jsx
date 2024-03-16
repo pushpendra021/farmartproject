@@ -12,7 +12,7 @@ const Slide = ({ item }) => {
   return (
     <div className="slide" style={styles}>
       <div className="slide_content">
-        <h1>{item.title}</h1>
+        <h3><b>{item.title}</b></h3>
         <button>{item.cta}</button>
       </div>
     </div>

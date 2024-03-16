@@ -2,7 +2,7 @@
 export const slidesData = [
     {
       id: "001",
-      img: "./images/first.png",
+      img: "https://miro.medium.com/v2/resize:fit:600/1*0ymqLsBuxsSQfNwOt2lU1g.jpeg",
       title: "Fertilizers and Soil Amendments",
       cta: "SHOP NOW",
     },
@@ -26,7 +26,7 @@ export const slidesData = [
     },
     {
       id: "005",
-      img: "./images/fifth.png",
+      img: "https://www.shutterstock.com/image-photo/intensive-fruit-production-orchard-crop-600nw-1215777238.jpg",
       title: "Crop Protection and Netting",
       cta: "SHOP NOW",
     },

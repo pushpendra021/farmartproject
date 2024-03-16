@@ -27,13 +27,7 @@ function App() {
       text: "rgb(24 24 29)",
       white: "white",
       black: " #212529",
-<<<<<<< HEAD
-      helper: "white",
       bg: "#1aff66",
-=======
-      helper: "blue",
-      bg: "#e6ffe6",
->>>>>>> e4e0b5fefb7140b5bf16369e621b01ad4724b45f
       bg1:"#e6ffe6",
       bg2:"#ffffff",
       footer_bg: "green",

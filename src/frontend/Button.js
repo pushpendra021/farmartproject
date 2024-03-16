@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const Button = styled.button`
   text-decoration: none;
   max-width: auto;
-  background-color: rgb(98 84 243);
+  background-color:green;
   color: rgb(255 255 255);
-  padding: 1.4rem 2.4rem;
+  padding: 1rem 1.6rem; /* Adjusted padding */
   border: none;
+  border-radius: 0.5rem; /* Added border-radius for rounded edges */
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
@@ -25,6 +26,6 @@ export const Button = styled.button`
   a {
     text-decoration: none;
     color: rgb(255 255 255);
-    font-size: 1.8rem  ;
+    font-size: 1.6rem; /* Adjusted font size */
   }
 `;
